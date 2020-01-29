@@ -6,17 +6,32 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <div id="quiz"></div>
-    
-    <button id="submit">Submit Quiz</button>
-    
-    <div id="results"></div>
+<div id="container">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style = "display:none">
+            <div id="question"></div>
+            <div class="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')">A</div>
+                <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+                <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+
+            </div>
+
+        </div>
+        <div id="scoreContainer" style = "display:none"></div>
+
+
+</div>
 
 
     <!-- Optional JavaScript -->
