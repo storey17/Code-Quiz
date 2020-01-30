@@ -84,7 +84,7 @@ function checkAnswer(answer) {
     if (answer == questions[runningQuestion].correct) {
         score++;
     }
-    counter = 0;
+    count = 0;
     if ((runningQuestion < lastQuestion)) {
         runningQuestion++;
         renderQuestion();
