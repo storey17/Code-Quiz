@@ -1,4 +1,4 @@
-# Code-Quiz_HW-4
+# Code-Quiz
 
 The code quiz runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.
 
